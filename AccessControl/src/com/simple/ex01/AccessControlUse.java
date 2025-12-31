@@ -1,0 +1,14 @@
+package com.simple.ex01;
+
+public class AccessControlUse {
+    public static void main(String name) {
+        AccessControlEx01 ac = new AccessControlEx01();
+
+        //ac name = "홍길동";
+        ac.setName("홍길동");
+        ac.setNum(1000);
+        ac.shareMoney = 100000;
+
+        System.out.println(ac.getNum());
+    }
+}
